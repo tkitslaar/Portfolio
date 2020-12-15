@@ -7,18 +7,45 @@ body {
     color: white;
 }
 
+main {
+    margin-left: 20%;
+}
+
+footer {
+    margin-left: 20%;
+}
+
 #navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
+    width: 20%;
     height: 100%;
     /* Full height */
     position: fixed;
     /* Make it stick, even on scroll */
     overflow: auto;
     /* Enable scrolling if the sidenav has too much content */
-    background-color: blueviolet;
-    
+    background-color: rgb(21, 25, 223);
+    color: white;
+}
+
+#navlist a {
+color: white;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: rgb(26, 70, 9);
 }
