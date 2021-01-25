@@ -8,18 +8,18 @@ body {
 }
 
 main {
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 
 footer {
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 
 #navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 20%;
+    /* width: 20%; */
     height: 100%;
     /* Full height */
     position: fixed;
@@ -48,4 +48,17 @@ color: white;
 
 .flex-item {
     background-color: rgb(26, 70, 9);
+}
+
+#page-flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-flex-item {
+width: 20%;
+}
+
+#main-flex-item {
+width: 80%;
 }
