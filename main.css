@@ -4,7 +4,12 @@ body {
     background-color: blueviolet;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    margin: 0px;
     color: white;
+}
+
+.fullscreen {
+    height: 100vh;
 }
 
 main {
@@ -16,18 +21,8 @@ footer {
 }
 
 #navlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* width: 20%; */
-    height: 100%;
-    /* Full height */
-    position: fixed;
-    /* Make it stick, even on scroll */
-    overflow: auto;
-    /* Enable scrolling if the sidenav has too much content */
-    background-color: rgb(21, 25, 223);
-    color: white;
+    position:fixed;
+    transform: translate(0, 300%);
 }
 
 #navlist a {
@@ -50,13 +45,15 @@ color: white;
     background-color: rgb(26, 70, 9);
 }
 
-#page-flex-container-column {
+#page-flex-container-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #sidebar-flex-item {
 width: 20%;
+background-color: blue;
+position: inherit;
 }
 
 #main-flex-item {
