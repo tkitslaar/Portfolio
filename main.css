@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
-
 body {
-    background-color: blueviolet;
+    background-color: rgb(92, 16, 163);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin: 0px;
@@ -12,27 +11,45 @@ body {
     height: 100vh;
 }
 
-main {
-    /* margin-left: 20%; */
+main {}
+
+footer {}
+
+footer ul {
+    list-style: none;
 }
 
-footer {
-    /* margin-left: 20%; */
+#center-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 #navlist {
-    position:fixed;
-    transform: translate(0, 300%);
+    /* transform: translate(0, 235%); */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.25em;
 }
 
 #navlist a {
-color: white;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navlist ul {
+    list-style: none;
+}
+
+#navlist li {
+    margin: 10px 0px 10px 0px;
 }
 
 .flex-container-column {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .flex-container-row {
@@ -42,20 +59,52 @@ color: white;
 }
 
 .flex-item {
-    background-color: rgb(26, 70, 9);
+    /* background-color: rgb(26, 70, 9); */
 }
 
 #page-flex-container-row {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 #sidebar-flex-item {
-width: 20%;
-background-color: blue;
-position: inherit;
+    width: 20%;
+    background-color: rgb(49, 14, 95);
 }
 
 #main-flex-item {
-width: 80%;
+    width: 80%;
+    overflow: auto;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#intro h1:first-of-type {
+    font-size: 400%;
+    margin: 0%;
+}
+
+.button {
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3em;
+    border: 0;
+    padding: 1% 3%;
+    border: solid 1px !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+#three {}
+
+#three ul {
+    list-style: none;
 }
