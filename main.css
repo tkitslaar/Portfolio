@@ -7,13 +7,13 @@ body {
     color: white;
 }
 
-.fullscreen {
+/* .fullscreen {
     height: 100vh;
-}
+} */
 
-main {}
+/* main {} */
 
-footer {}
+/* footer {} */
 
 footer ul {
     list-style: none;
@@ -55,12 +55,13 @@ footer ul {
 .flex-container-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.flex-item {
-    /* background-color: rgb(26, 70, 9); */
-}
+/* .flex-item {
+    background-color: rgb(26, 70, 9);
+} */
 
 #page-flex-container-row {
     display: flex;
@@ -83,11 +84,41 @@ footer ul {
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
+    height: 100vh;
 }
 
 #intro h1:first-of-type {
     font-size: 400%;
     margin: 0%;
+}
+
+#one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(57, 57, 139);
+}
+
+.one-flex-item {
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#row-1 {
+background-color: rgb(57, 57, 139);
+}
+
+#row-2 {
+background-color: rgb(40, 40, 112);
+}
+
+#row-3 {
+background-color: rgb(30, 30, 88);
+}
+.image {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
 }
 
 .button {
@@ -103,7 +134,16 @@ footer ul {
     font-size: 80%;
 }
 
-#three {}
+#two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#three {
+    height: 50vh;
+}
 
 #three ul {
     list-style: none;
