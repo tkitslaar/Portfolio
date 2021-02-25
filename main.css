@@ -138,7 +138,28 @@ background-color: rgb(30, 30, 88);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 40vh;
+    padding-bottom: 3%;
+    background-color: rgb(179, 45, 150);
+}
+
+#feature-overview {
+    margin: 0% 5% 0% 5%;
+}
+
+#features {
+background-color: rgba(255, 255, 255, 0.15);
+border: solid 1px rgb(255, 255, 255);
+border-radius: 0.25em;
+margin: 0% 5% 0% 5%;
+}
+
+.feature-flex-items {
+padding: 0% 5% 0% 5%;
+}
+
+.center-border {
+    border-right: solid 1px rgb(255, 255, 255);
 }
 
 #three {
