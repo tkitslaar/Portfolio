@@ -1,9 +1,10 @@
 # Portfolio
-	Demo Images:
+	Images:
 		Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		Line Awesome (icons8.com/line-awesome/, https://github.com/icons8/line-awesome)
+
 
 	Other:
 		jQuery (jquery.com)
