@@ -13,7 +13,11 @@ body {
 
 /* main {} */
 
-/* footer {} */
+footer p {
+    text-align: end;
+    margin-right: 1%;
+    font-size: 60%;
+}
 
 footer ul {
     list-style: none;
@@ -101,21 +105,22 @@ footer ul {
 }
 
 .one-flex-item {
-margin-left: 10%;
-margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #row-1 {
-background-color: rgb(57, 57, 139);
+    background-color: rgb(57, 57, 139);
 }
 
 #row-2 {
-background-color: rgb(40, 40, 112);
+    background-color: rgb(40, 40, 112);
 }
 
 #row-3 {
-background-color: rgb(30, 30, 88);
+    background-color: rgb(30, 30, 88);
 }
+
 .image {
     width: 30%;
     height: 30%;
@@ -149,14 +154,14 @@ background-color: rgb(30, 30, 88);
 }
 
 #features {
-background-color: rgba(255, 255, 255, 0.15);
-border: solid 1px rgb(255, 255, 255);
-border-radius: 0.25em;
-margin: 0% 5% 0% 5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 0.25em;
+    margin: 0% 5% 0% 5%;
 }
 
 .feature-flex-items {
-padding: 0% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
 }
 
 .center-border {
@@ -169,11 +174,10 @@ padding: 0% 5% 0% 5%;
     /* margin: 0% 5% 0% 5%; */
 }
 
-/* #icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
+#icons a {
+    color: white;
+    text-decoration: none;
+}
 
 #three ul {
     list-style: none;
