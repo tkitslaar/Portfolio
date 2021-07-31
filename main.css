@@ -61,7 +61,6 @@ footer ul {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
 }
 
 .flex-item {
@@ -138,6 +137,7 @@ footer ul {
     text-transform: uppercase;
     font-weight: 200;
     font-size: 80%;
+    align-items: center;
 }
 
 #two {
@@ -177,6 +177,10 @@ footer ul {
 #icons a {
     color: white;
     text-decoration: none;
+}
+
+#IconsDiv {
+    justify-content: center;
 }
 
 #three ul {
