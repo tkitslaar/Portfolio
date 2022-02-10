@@ -197,11 +197,11 @@ nav>ul>li:hover {
     margin-top: 30px;
 }
 
-div#IconsDiv > .flex-item {
+div#IconsDiv>.flex-item {
     transition: all .2s ease-in-out;
 }
 
-div#IconsDiv > .flex-item:hover {
+div#IconsDiv>.flex-item:hover {
     transform: scale(1.1);
 }
 
@@ -222,12 +222,39 @@ div#IconsDiv > .flex-item:hover {
     }
 
     .flex-container-row {
-        display: block;
+
         align-items: center;
         justify-content: center;
     }
 
     .image {
         width: 100%;
+    }
+
+    #IconsDiv {
+        display: flex;
+        transform: scale(0.5);
+        margin-top: 0px;
+    }
+
+    #two {
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    #feature-overview {
+        margin: 0% 10% 0% 10%;
+    }
+
+    #features {
+        margin: 0% 10% 0% 10%;
+    }
+
+    .center-border {
+        border-bottom: solid 1px rgb(255, 255, 255);
+    }
+
+    #three>.inner>p {
+        margin: 0% 10% 0% 10%;
     }
 }
