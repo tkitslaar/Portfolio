@@ -252,6 +252,7 @@ div#IconsDiv>.flex-item:hover {
 
     .center-border {
         border-bottom: solid 1px rgb(255, 255, 255);
+        border-right: 0px;
     }
 
     #three>.inner>p {
