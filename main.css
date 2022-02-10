@@ -222,7 +222,7 @@ div#IconsDiv>.flex-item:hover {
     }
 
     .flex-container-row {
-
+        display: block;
         align-items: center;
         justify-content: center;
     }
