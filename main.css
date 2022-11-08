@@ -154,7 +154,7 @@ nav>ul>li:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 20vh;
     padding-bottom: 3%;
     background-color: rgb(179, 45, 150);
 }
